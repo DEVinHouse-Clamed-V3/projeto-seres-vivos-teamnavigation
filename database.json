@@ -247,18 +247,18 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Anaeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://static1.minhavida.com.br/diseases/b7/7b/fc/1c/escherichia-coli-orig-1.jpg"
         },
         {
           "id": "2",
-          "name": "Streptococcus",
+          "name": "Streptcoccuso",
           "description": "Bactéria responsável por infecções na garganta.",
           "nutrition": "Heterotrófico",
           "cellType": "Procariontes",
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Anaeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://i.em.com.br/SgW5Rl8I8yvNawH296KxN5ZQenM=/1200x1200/smart/imgsapp.em.com.br/app/noticia_127983242361/2023/10/24/1581424/ilustracao-bacteria_1_31852.jpeg"
         },
         {
           "id": "3",
@@ -269,7 +269,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/1/15/CSIRO_ScienceImage_4203_A_bluegreen_algae_species_Cylindrospermum_sp_under_magnification.jpg"
         },
         {
           "id": "4",
@@ -280,7 +280,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Anaeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/SalmonellaNIAID.jpg/640px-SalmonellaNIAID.jpg"
         },
         {
           "id": "5",
@@ -291,7 +291,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTATXv2VSd9mrqubJ0RuDRE9Qd1u6pTO4pCPw&s"
         },
         {
           "id": "6",
@@ -302,7 +302,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Anaeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://www.biomerieux-industry.com/sites/default/files/2021-04/Mycoplasma7_0.png"
         },
         {
           "id": "7",
@@ -313,7 +313,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Anaeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Clostridium_perfringens.jpg/1200px-Clostridium_perfringens.jpg"
         }
       ],
       "protista": [
