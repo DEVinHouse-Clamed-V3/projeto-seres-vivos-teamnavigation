@@ -326,7 +326,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://www.autopista.es/uploads/s1/10/32/90/87/la-ameba-contiene-estructuras-especializadas-llamadas-organulos-que-realizan-una-variedad-de-funciones-celulares_2_790x454.jpeg"
         },
         {
           "id": "2",
@@ -337,7 +337,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://www.infoescola.com/wp-content/uploads/2009/09/protozarios-ciliados-paramecium-92979859.jpg"
         },
         {
           "id": "3",
@@ -348,18 +348,18 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://bioenciclopedia.ceibal.edu.uy/_imgn/images/reino-protista/009-euglena-main.png"
         },
         {
           "id": "4",
-          "name": "Diatomeias",
+          "name": "Diatomáceas",
           "description": "Algas unicelulares que possuem parede celular de sílica.",
           "nutrition": "Autótrofo",
           "cellType": "Eucariontes",
           "cellOrganization": "Unicelulares",
           "reproduction": "Sexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://www.infoescola.com/wp-content/uploads/2007/10/diatomacea-centrica-761277298.jpg"
         },
         {
           "id": "5",
@@ -370,7 +370,7 @@
           "cellOrganization": "Unicelulares ou Multicelulares",
           "reproduction": "Sexuada e Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjntheR-eyNm-6g_m_tiUzMHaCJwh69Xhneeb2vvq94AjkyAJpa2jxPUNwwxfni1RCA39-HD0Ie-kY_Rc9lMzhTRCpuGGq66N09EOQRm4Y2cvgOS5AuqwPLRf0yL9iqH5-bPORwDl96QTML/s1600/01.jpg"
         },
         {
           "id": "6",
@@ -381,7 +381,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Assexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://planetabiologia.com/wp-content/uploads/2020/04/O-que-%C3%A9-Plasmodium-ciclo-de-vida-caracter%C3%ADsticas-resumo.jpg"
         },
         {
           "id": "7",
@@ -392,7 +392,7 @@
           "cellOrganization": "Unicelulares",
           "reproduction": "Sexuada",
           "respiration": "Aeróbia",
-          "image": "https://via.placeholder.com/150"
+          "image": "https://d1g9yur4m4naub.cloudfront.net/image-handler/ts/20231116073333/ri/750/src/images/news/ImageForNews_62986_17001380049996274.jpg"
         }
       ]
   }
