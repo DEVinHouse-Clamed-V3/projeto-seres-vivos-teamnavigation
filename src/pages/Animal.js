@@ -15,7 +15,7 @@ const Animal = () => {
 
   useEffect(() => {
     axios
-      .get("http://192.168.3.5:3000/animais") // Seu endpoint
+      .get("http://192.168.3.5:3000/animais")
       .then((response) => {
         setAnimal(response.data);
       })
