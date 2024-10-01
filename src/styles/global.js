@@ -1,55 +1,50 @@
-
-// INICIO ESTILIZAÇÃO Monera.js
-
 import { StyleSheet } from 'react-native';
 
 export const globalStyles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 10,
-    backgroundColor: '#fff',
+    backgroundColor: "#121212",
+    padding: 20,
+    
   },
   cartao: {
-    backgroundColor: '#fff',
-    borderRadius: 10,
-    padding: 15,
-    marginVertical: 10,
-    marginHorizontal: 5,
-    shadowColor: '#000',
-    shadowOpacity: 0.2,
-    shadowRadius: 5,
-    shadowOffset: { width: 0, height: 2 },
-    elevation: 5,  // Para Android
-    flexDirection: 'row',  // Mantém imagem e conteúdo em linha
-    alignItems: 'flex-start', // Alinha no topo da imagem
+    backgroundColor: "#1c1c1e",
+    borderRadius: 15,
+    marginVertical: 15,
+    padding: 20,
+    shadowColor: "#000",
+    shadowOffset: { width: 0, height: 6 },
+    shadowOpacity: 0.5,
+    shadowRadius: 10,
   },
   imagemCartao: {
-    width: 150,
-    height: 150,
-    borderRadius: 10,
-    marginRight: 15,
-    backgroundColor: '#ccc',
+    width: "100%",
+    height: 220,
+    borderRadius: 15,
+    resizeMode: "cover",
+    marginBottom: 15,
   },
   conteudoCartao: {
-    flex: 1, // O conteúdo textual ocupará o restante do espaço ao lado da imagem
-    flexDirection: 'column', // Organiza os textos um abaixo do outro
-    justifyContent: 'flex-start', // Garante que o texto comece do topo
+    marginTop: 10,
   },
   nomeCartao: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    marginBottom: 5,
+    fontSize: 26,
+    color: "#FF4C4C",
+    fontWeight: "bold",
+    marginBottom: 10,
+    textShadowColor: "rgba(0, 0, 0, 0.75)",
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
   },
   descricaoCartao: {
-    fontSize: 14,
-    color: '#666',
-    marginBottom: 5,
+    fontSize: 16,
+    color: "#f0f0f0",
+    lineHeight: 22,
+    marginBottom: 10,
   },
   detalheCartao: {
-    fontSize: 12,
-    color: '#666',
-    marginBottom: 2,  // Pequeno espaçamento entre os detalhes
+    fontSize: 14,
+    color: "#a0a0a0",
+    marginBottom: 5,
   },
 });
-
-// FIM ESTILIZAÇÃO Monera.js
