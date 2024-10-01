@@ -7,22 +7,45 @@ import {
   Image,
   Alert,
   StyleSheet,
+  TextInput,
 } from "react-native";
 import axios from "axios";
 
 const Animal = () => {
   const [animal, setAnimal] = useState([]);
+  const [filteredAnimals, setFilteredAnimals] = useState([]); // Estado para os animais filtrados
+  const [search, setSearch] = useState(""); // Estado para armazenar o texto de busca
 
   useEffect(() => {
     axios
       .get("http://192.168.3.5:3000/animais")
       .then((response) => {
         setAnimal(response.data);
+        setFilteredAnimals(response.data);
       })
       .catch(() => {
         Alert.alert("perdeu tempo ಥ_ಥ");
       });
   }, []);
+
+  // Função para filtrar os animais
+  const filterAnimals = (text) => {
+    setSearch(text);
+    if (text) {
+      const filteredData = animal.filter((item) => {
+        const itemData = item.name ? item.name.toUpperCase() : "".toUpperCase();
+        const textData = text.toUpperCase();
+        return (
+          itemData.indexOf(textData) > -1 ||
+          item.description.toUpperCase().indexOf(textData) > -1
+        );
+      });
+      setFilteredAnimals(filteredData);
+    } else {
+      // Se não houver texto na busca, exibe todos os animais
+      setFilteredAnimals(animal);
+    }
+  };
 
   const animalItem = ({ item }) => (
     <View style={styles.cartao}>
@@ -38,8 +61,17 @@ const Animal = () => {
 
   return (
     <SafeAreaView style={styles.container}>
+      {/* Campo de texto para buscar */}
+      <TextInput
+        style={styles.input}
+        value={search}
+        placeholder="Buscar animal"
+        placeholderTextColor="#a0a0a0"
+        onChangeText={(text) => filterAnimals(text)}
+      />
+      {/* Lista filtrada de animais */}
       <FlatList
-        data={animal}
+        data={filteredAnimals}
         renderItem={animalItem}
         keyExtractor={(item) => item.id}
       />
@@ -52,6 +84,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#121212",
     padding: 20,
+  },
+  input: {
+    height: 40,
+    borderColor: "#a0a0a0",
+    borderWidth: 1,
+    borderRadius: 10,
+    marginBottom: 20,
+    paddingHorizontal: 10,
+    color: "#f0f0f0",
   },
   cartao: {
     backgroundColor: "#1c1c1e",
