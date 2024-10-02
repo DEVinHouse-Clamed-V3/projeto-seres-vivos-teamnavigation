@@ -7,11 +7,13 @@ import {
   View,
   Image,
   Alert,
+  TextInput,
 } from "react-native";
 import axios from "axios";
 
 const Plantas = () => {
   const [plantas, setPlantas] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     axios
@@ -45,16 +47,28 @@ const Plantas = () => {
     </View>
   );
 
+  const filteredPlantas = plantas.filter((item) => 
+    item.name.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
   return (
     <SafeAreaView style={globalStyles.container}>
+      {/* Search Input */}
+      <TextInput
+        style={globalStyles.searchInput}
+        placeholder="Search for plants"
+        value={searchQuery}
+        onChangeText={(text) => setSearchQuery(text)}
+      />
+      
+      {/* Plant List */}
       <FlatList
-        data={plantas}
+        data={filteredPlantas}
         renderItem={plantasItem}
         keyExtractor={(item) => item.id.toString()}
       />
     </SafeAreaView>
   );
 };
-
 
 export default Plantas;
